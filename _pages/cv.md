@@ -11,35 +11,15 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Tianjin, China, Tianjin University, 2024
+* B.S. in Tianjin, China, Hebei University of Technology, 2020
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Interdisciplinary Research (AI + Energy): I specialize in bridging the gap between advanced AI techniques and energy material challenges. I have successfully applied Machine Learning to solve critical issues in battery catalyst development, focusing on data imputation for incomplete experimental results and using interpretability techniques to uncover underlying physical mechanisms.
+* LLM for Scientific Discovery: Proficient in leveraging Large Language Models to accelerate research. My expertise includes fine-tuning models for domain-specific tasks and developing automated pipelines for scientific data extraction and cleaning from massive literature repositories.
+* Leadership: Have extensive experience in leading research teams. I often served as the project leader, responsible for coordinating the work among different personnel and steering the overall progress of the project.
 
 Publications
 ======
@@ -53,12 +33,3 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
