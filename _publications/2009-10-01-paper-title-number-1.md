@@ -3,7 +3,7 @@ title: "How Machine Learning Has Driven the Development of Rechargeable Ion Batt
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-23-how-machine-learning-has-driven-the-development-of-rechargeable-ion-batteries
-excerpt: "This review proposes a mechanism-aware framework for deploying machine learning throughout rechargeable ion battery research, focusing on the end-to-end ML workflow, interpretable algorithm/technology selection, and applications to intercalation electrodes, conversion electrodes, and electrolyte design; it also outlines challenges (e.g., data scarcity, mechanism distortion) and opportunities from diffusion models, transformer frameworks, large language models, and autonomous laboratories."
+excerpt: "This review first analyzes the advantages of machine learning in the design of rechargeable battery materials, and explains the overall process of applying machine learning in such materials as well as the related interpretability techniques. Based on the classification analysis of different battery types, it elaborately explains which methods should be used for the analysis of various current battery materials. Finally, it looks forward to the future and points out the opportunities brought by large language models and reinforcement learning-driven automatic laboratories."
 date: 2025-07-23
 venue: "Advanced Energy Materials"
 slidesurl:
