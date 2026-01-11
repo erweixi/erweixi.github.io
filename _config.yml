@@ -5,10 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-
+# 预览：bundle exec jekyll serve
 # Basic Site Settings
 locale                   : "zh-CN"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Huawei Liu / Graduate student"
 title_separator          : "-"
 name                     : &name "Huawei Liu"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Huawei Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Focus on using artificial intelligence technology to solve problems in the field of materials."
+  bio              : "Focusing on using artificial intelligence technology to solve problems in the field of materials."
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
