@@ -13,4 +13,16 @@ citation: 'Liu, Huawei; Li, Sihui; Zhu, Shan; Hu, Yitao; Han, Xiaopeng; Shi, Chu
 ---
 
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This review provides a systematic roadmap for integrating machine learning (ML) into rechargeable battery research. It distills a mechanism-aware framework and standardized design rules to bridge the gap between theoretical modeling and experimental validation.
+
+### Standardized Workflow
+ The paper defines an end-to-end ML pipeline covering data collection, imputation techniques such as Mice Forest, and feature engineering to establish a shared vocabulary for reproducibility in battery informatics.
+
+### Interpretability and Insight:
+ We analyze the balance between explicit models like Symbolic Regression and implicit models such as Neural Networks. The work demonstrates how tools including SHAP and Variable Importance Measures extract actionable physical insights from complex architectures.
+
+### Multi-Scenario Guidance
+ Tailored methodologies are provided for three critical domains consisting of intercalation electrodes, conversion electrodes, and electrolyte design.
+
+### Strategic Outlook
+ The review addresses critical bottlenecks such as data defects and mechanism distortion. It serves as an instructive guide for implementing next-generation AI for Science (AI4S) technologies, including Large Language Models for literature mining, Diffusion Models for inverse material design, and Reinforcement Learning to drive autonomous laboratories.

@@ -1,25 +1,29 @@
 ---
-title: "A Generalizable LLM-Driven Framework for High-Throughput Material Discovery: A Case Study in Li-S Battery Catalysts"
+title: "Accelerating Catalyst Screening for Lithium-Sulfur Batteries via Knowledge Distillation of Large Language Models"
 collection: publications
 category: Current Research
-permalink: /research/generalizable-llm-distillation-framework
+permalink: /publication/2026-llm-catalyst-screening
 excerpt: >
-  We propose a universal, domain-agnostic workflow for accelerating scientific discovery using Large Language Models. 
-  The framework employs a hierarchical knowledge distillation strategy: a fine-tuned 30B "Teacher" model captures deep domain insights, which are then distilled into a lightweight 4B "Student" model for efficient, multi-dimensional scoring. 
-  While demonstrated on Lithium-Sulfur battery catalyst screening, this automated pipeline is designed for cross-domain transferability, enabling rapid material evaluation and screening across diverse scientific fields with high computational efficiency.
+  We developed a hierarchical LLM framework to accelerate the discovery of Lithium-Sulfur (Li-S) battery catalysts. 
+  The pipeline begins by fine-tuning a 30B-parameter LLM on extensive scientific literature to internalize deep domain knowledge. 
+  Through a knowledge distillation process, this 30B "teacher" model instructs a lightweight 4B "student" model to perform multi-dimensional scoring of catalyst candidates based on chemical activity and stability. 
+  Finally, the distilled 4B model is deployed for high-throughput screening across vast material spaces, enabling rapid identification of promising catalysts with significantly reduced computational overhead.
 date: 2026-01-12
+venue: 'Research Project'
 ---
+## Project Overview: The "LLM + DFT" Closed-Loop System
 
-## Methodological Framework & Transferability
+This project aims to bridge the gap between "unstructured literature knowledge" and "physics-based verification" by building an automated discovery pipeline.
 
-The core value of this research lies in its **methodological robustness** and **cross-domain adaptability**. Instead of a one-off screening tool, we have developed a reusable pipeline that can be redeployed to other material science or chemical engineering domains.
+### Core Workflow
+1.  **Knowledge Extraction & Model Fine-tuning**: 
+    Utilizing **DeepSeek** to extract structured evidence (performance metrics, structural components, experimental conditions) from thousands of papers. This data is used to fine-tune a **Qwen-30B** model, creating a specialist in electrochemical materials.
+2.  **Hierarchical Scoring via Knowledge Distillation**: 
+    The fine-tuned 30B model (Teacher) establishes a multi-dimensional ranking logic to evaluate materials. This reasoning capability is distilled into a **4B model** (Student), enabling rapid, large-scale screening of candidate materials with high efficiency.
+3.  **DFT Validation & Feedback**: 
+    Top-ranked candidates undergo **Density Functional Theory (DFT)** calculations to verify their catalytic activity and stability. The computational results are used to refine the LLM's screening strategy, ensuring a reliable and accurate pipeline.
 
-### 1. Hierarchical Knowledge Distillation
-By distilling a heavy-weight model (30B) into a light-weight agent (4B), we solve the conflict between "deep reasoning" and "high-throughput speed." This strategy ensures that complex chemical intuition can be applied at scale.
 
-### 2. Universal Applicability (Transferability)
-* **Domain Agnostic:** The distillation and scoring logic can be migrated to hydrogen evolution catalysts, CO2 reduction, or drug discovery by simply swapping the fine-tuning dataset.
-* **Multi-Dimensional Scoring:** The framework is not limited to a single metric; it can be configured to score any material property (stability, activity, cost) based on the "Teacher" model's instructions.
 
-### 3. Efficiency & Scalability
-The distilled 4B model allows for the screening of massive candidate spaces that are traditionally inaccessible via DFT or larger LLMs, providing a scalable solution for various R&D bottlenecks.
+### Key Highlight: Domain Transferability
+While currently applied to **Lithium-Sulfur (Li-S) battery catalysts**, the most significant advantage of this workflow is its **universality**. The pipeline's architecture—comprising literature extraction, model distillation, and physics-based validation—can be seamlessly migrated to other fields, such as hydrogen evolution catalysts, CO2 reduction materials, or drug discovery, by simply updating the initial literature dataset and the specific validation tool.
