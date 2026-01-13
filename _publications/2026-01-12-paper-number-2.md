@@ -1,15 +1,25 @@
 ---
-title: "A Universal LLM-based Framework for Material Discovery: Knowledge Distillation from 30B to 4B Models"
+title: "A Generalizable LLM-Driven Framework for High-Throughput Material Discovery: A Case Study in Li-S Battery Catalysts"
 collection: publications
 category: Current Research
-permalink: /publication/2026-universal-llm-distillation
-date: 2026-01-12
-venue: 'Working Paper / In Preparation'
+permalink: /research/generalizable-llm-distillation-framework
 excerpt: >
-  We present a highly transferable and reusable LLM-based pipeline designed to accelerate scientific discovery across diverse domains. 
-  Demonstrated through catalyst screening for Lithium-Sulfur batteries, the workflow follows a hierarchical logic: 
-  (1) Domain-Specific Adaptation: Fine-tuning a 30B-parameter "Teacher" model on specialized literature to capture deep chemical insights. 
-  (2) Knowledge Distillation: Transferring expert reasoning to a lightweight 4B "Student" model for multi-dimensional scoring (activity, stability, etc.). 
-  (3) High-Throughput Screening: Utilizing the 4B model for rapid, large-scale candidate evaluation. 
-  Crucially, this modular framework is domain-agnostic; by replacing the fine-tuning dataset, it can be seamlessly migrated to other materials science or chemistry fields, providing a universal solution for AI-driven scientific research (AI4S).
+  We propose a universal, domain-agnostic workflow for accelerating scientific discovery using Large Language Models. 
+  The framework employs a hierarchical knowledge distillation strategy: a fine-tuned 30B "Teacher" model captures deep domain insights, which are then distilled into a lightweight 4B "Student" model for efficient, multi-dimensional scoring. 
+  While demonstrated on Lithium-Sulfur battery catalyst screening, this automated pipeline is designed for cross-domain transferability, enabling rapid material evaluation and screening across diverse scientific fields with high computational efficiency.
+date: 2026-01-12
 ---
+
+## Methodological Framework & Transferability
+
+The core value of this research lies in its **methodological robustness** and **cross-domain adaptability**. Instead of a one-off screening tool, we have developed a reusable pipeline that can be redeployed to other material science or chemical engineering domains.
+
+### 1. Hierarchical Knowledge Distillation
+By distilling a heavy-weight model (30B) into a light-weight agent (4B), we solve the conflict between "deep reasoning" and "high-throughput speed." This strategy ensures that complex chemical intuition can be applied at scale.
+
+### 2. Universal Applicability (Transferability)
+* **Domain Agnostic:** The distillation and scoring logic can be migrated to hydrogen evolution catalysts, CO2 reduction, or drug discovery by simply swapping the fine-tuning dataset.
+* **Multi-Dimensional Scoring:** The framework is not limited to a single metric; it can be configured to score any material property (stability, activity, cost) based on the "Teacher" model's instructions.
+
+### 3. Efficiency & Scalability
+The distilled 4B model allows for the screening of massive candidate spaces that are traditionally inaccessible via DFT or larger LLMs, providing a scalable solution for various R&D bottlenecks.
