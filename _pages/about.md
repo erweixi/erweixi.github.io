@@ -12,13 +12,13 @@ I am a graduate student at Tianjin University, expecting to graduate in Autumn 2
 
 Research Direction
 ======
-My research focuses on accelerating materials design through **AI-driven methodologies**. I have extensive experience in applying **interpretable machine learning** to battery systems. My previous work includes contributing to the design of hard carbon materials for sodium-ion batteries, which resulted in a second authored publication in Progress in Materials Science(IF ~37). Additionally, I authored a comprehensive review on the **integration of AI in rechargeable batteries**, published as the first author in Advanced Energy Materials(IF ~27).
+My research focuses on accelerating materials design through **AI-driven methodologies**. I have extensive experience in applying **interpretable machine learning** to battery systems. My previous work includes contributing to the design of hard carbon materials for sodium-ion batteries, which resulted in a second authored publication in *Progress in Materials Science*(IF ~37). Additionally, I authored a comprehensive review on the **integration of AI in rechargeable batteries**, published as the first author in *Advanced Energy Materials*(IF ~27).
 
-Now, I am leading a team and foucsing on the design of Single-Atom Catalyst by machine-learning for Lithium-Sulfur Batteries and the High-throughput screen of catalysts by large language model. 
+Currently, I am leading a research team focusing on two synergistic frontiers in energy materials: **the Machine learning-driven design of Single-Atom Catalysts** and **the High-throughput Screening of catalysts using Large Language Models** for Lithium-Sulfur batteries.
 
-In machine learning 
+1. ML for SAC Design: I have developed a specialized machine learning process that **establishes the correlation between catalyst electronic structure characteristics and capacity retention rates**. This approach provides a robust design principle for catalysts in conversion-type battery systems.
 
-
+2. LLM for High-throughput Screening: To accelerate catalyst discovery for Li-S batteries, I proposed a novel **two-step fine-tuning method** for LLMs. This strategy utilizing a teacher-student architecture significantly reduces computational overhead and increases screening speed while maintaining high accuracy.
 
 Getting started
 ======
