@@ -21,10 +21,20 @@ Skills
 * LLM for Scientific Discovery: Proficient in leveraging Large Language Models to accelerate research. My expertise includes fine-tuning models for domain-specific tasks and developing automated pipelines for scientific data extraction and cleaning from massive literature repositories.
 * Leadership: Have extensive experience in leading research teams. I often served as the project leader, responsible for coordinating the work among different personnel and steering the overall progress of the project.
 
+Researching Projects
+======
+  <ul>{% for post in site.publications reversed %}
+    {% if post.venue == 'Research Project' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.venue != 'Research Project' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
   
 Talks

@@ -9,7 +9,7 @@ venue: "Advanced Energy Materials"
 slidesurl:
 paperurl: "https://doi.org/10.1002/aenm.202504095"
 bibtexurl:
-citation: 'Liu, Huawei; Li, Sihui; Zhu, Shan; Hu, Yitao; Han, Xiaopeng; Shi, Chunsheng; He, Fang; He, Chunnian; Chen, Biao; Zhao, Naiqin. (2025). &quot;How Machine Learning Has Driven the Development of Rechargeable Ion Batteries.&quot; <i>Advanced Energy Materials</i>, e04095. doi:10.1002/aenm.202504095.'
+citation: 'Liu, Huawei; Li, Sihui; Zhu, Shan; Hu, Yitao; Han, Xiaopeng; Shi, Chunsheng; He, Fang; He, Chunnian; Chen, Biao; Zhao, Naiqin. (2025). &quot;How Machine Learning Has Driven the Development of Rechargeable Ion Batteries.&quot; <i>Advanced Energy Materials</i>, e04095'
 ---
 
 ---
