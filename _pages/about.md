@@ -19,15 +19,16 @@ Currently, I am **leading a research team** focusing on two synergistic frontier
 1. ML for SAC Design: I have developed a specialized machine learning process that **establishes the correlation between catalyst electronic structure characteristics and capacity retention rates**. This approach provides a robust design principle for catalysts in conversion-type battery systems.
 
 2. LLM for High-throughput Screening: To accelerate catalyst discovery for Li-S batteries, I proposed a novel **two-step fine-tuning method** for LLMs. This strategy, utilizing a teacher-student architecture, significantly reduces computational overhead and increases screening speed while maintaining high accuracy.
-
-Getting started
+Research Skill
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. Research Problem Translation :I possess a strong ability to combine complex physicochemical challenges with AI technology. Instead of blindly applying models, I excel at:
+## Translating Scientific Challenges into Computational Workflows
+
+I excel at restructuring complex physicochemical problems into solvable machine learning tasks. A prime example is my work on **Lithium-Sulfur (Li-S) battery catalyst design**:
+- **Problem Formulation**: Identifying **capacity decay** as the key limiting factor in conversion-type batteries, I initially sought to model the quantitative relationship between material descriptors and decay rates.
+- **Strategic Pivot**: Upon discovering that the high complexity of the data limited the accuracy of standard regression, I **strategically pivoted** the methodology. I redefined the prediction target from a regression of decay rates to a **classification of capacity retention**, significantly enhancing model robustness.
+- **Mechanism Elucidation**: Going beyond simple screening, I utilized **interpretability technologies** to decipher the "black box." I successfully transformed ML-derived correlations into **causal insights**, grounding the computational findings in verifiable **electrochemical mechanisms**.
+2. 
 
 Site-wide configuration
 ------
