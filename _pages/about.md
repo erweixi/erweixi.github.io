@@ -19,6 +19,7 @@ Currently, I am **leading a research team** focusing on two synergistic frontier
 1. ML for SAC Design: I have developed a specialized machine learning process that **establishes the correlation between catalyst electronic structure characteristics and capacity retention rates**. This approach provides a robust design principle for catalysts in conversion-type battery systems.
 
 2. LLM for High-throughput Screening: To accelerate catalyst discovery for Li-S batteries, I proposed a novel **two-step fine-tuning method** for LLMs. This strategy, utilizing a teacher-student architecture, significantly reduces computational overhead and increases screening speed while maintaining high accuracy.
+
 Research Skill
 ======
 1. Research Problem Translation :I possess a strong ability to combine complex physicochemical challenges with AI technology. Instead of blindly applying models, I excel at:
