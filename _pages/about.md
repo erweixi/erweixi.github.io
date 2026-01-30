@@ -22,8 +22,7 @@ Currently, I am **leading a research team** focusing on two synergistic frontier
 
 Research Skill
 ======
-1. Research Problem Translation :I possess a strong ability to combine complex physicochemical challenges with AI technology. Instead of blindly applying models, I excel at:
- **Translating Scientific Challenges into Computational Workflows** ： I am good at restructuring complex physicochemical problems into solvable machine learning tasks. A prime example is my work on **Lithium-Sulfur (Li-S) battery catalyst design**:
+1. **Research Problem Translation**: I possess a strong ability to bridge the gap between physicochemical principles and AI technology. Going beyond standard model application, I excel at **restructuring complex scientific problems into solvable machine learning workflows**. A prime example is my work on Lithium-Sulfur (Li-S) battery catalyst design:
  - **Problem Formulation**: Identifying **capacity decay** as the key limiting factor in conversion-type batteries, I initially sought to model the quantitative relationship between material descriptors and decay rates.
  - **Strategic Pivot**: Upon discovering that the high complexity of the data limited the accuracy of standard regression, I **strategically pivoted** the methodology. I redefined the prediction target from a regression of decay rates to a **classification of capacity retention**, significantly enhancing model robustness.
  - **Mechanism Elucidation**: Going beyond simple screening, I utilized **interpretability technologies** to decipher the "black box." I successfully transformed ML-derived correlations into **causal insights**, grounding the computational findings in verifiable **electrochemical mechanisms**.
