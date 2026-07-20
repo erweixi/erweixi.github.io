@@ -13,16 +13,8 @@ citation: 'Liu, Huawei; Li, Sihui; Zhu, Shan; Hu, Yitao; Han, Xiaopeng; Shi, Chu
 ---
 
 ---
-This review provides a systematic roadmap for integrating machine learning (ML) into rechargeable battery research. It distills a mechanism-aware framework and standardized design rules to bridge the gap between theoretical modeling and experimental validation.
+**Role:** First author and project coordinator.
 
-### Standardized Workflow
- The paper defines an end-to-end ML pipeline covering data collection, imputation techniques such as Mice Forest, and feature engineering to establish a shared vocabulary for reproducibility in battery informatics.
+**Contribution:** Led the conceptualization and overall planning of the review; designed the analytical framework and manuscript structure; coordinated literature collection, data organization, and figure preparation with co-authors; and took primary responsibility for scientific synthesis, manuscript writing, revision, and quality control.
 
-### Interpretability and Insight:
- We analyze the balance between explicit models like Symbolic Regression and implicit models such as Neural Networks. The work demonstrates how tools including SHAP and Variable Importance Measures extract actionable physical insights from complex architectures.
-
-### Multi-Scenario Guidance
- Tailored methodologies are provided for three critical domains consisting of intercalation electrodes, conversion electrodes, and electrolyte design.
-
-### Strategic Outlook
- The review addresses critical bottlenecks such as data defects and mechanism distortion. It serves as an instructive guide for implementing next-generation AI for Science (AI4S) technologies, including Large Language Models for literature mining, Diffusion Models for inverse material design, and Reinforcement Learning to drive autonomous laboratories.
+This review systematically examines machine-learning workflows for rechargeable battery research, covering data acquisition and preprocessing, model development and interpretation, and applications across different battery chemistries. It further discusses emerging directions involving large language models, reinforcement learning, autonomous experimentation, and closed-loop materials discovery.

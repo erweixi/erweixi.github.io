@@ -12,7 +12,8 @@ bibtexurl:
 citation: 'Sun, Z.; Liu, H.; Li, W.; Zhang, N.; Zhu, S.; Chen, B.; He, F.; Zhao, N.; He, C. (2025). "Advanced hard carbon materials for practical applications of sodium-ion batteries developed by combined experimental, computational, and data analysis approaches." <i>Progress in Materials Science</i>. 149, 101401.'
 ---
 
-In this work, we propose a comprehensive framework that integrates experimental, computational, and data-driven approaches to address the structural complexity of hard carbon (HC) anodes for sodium-ion batteries.
-Our study establishes a robust "Data Statistics + Machine Learning" pipeline. By mining extensive literature data, we constructed a multi-dimensional database and utilized Mice Forest to handle missing values, ensuring data integrity. We then trained Random Forest models—optimized via Bayesian search—to predict critical performance metrics like Initial Coulombic Efficiency (ICE) and reversible capacity based on microstructural features.
-The true strength of this work lies in its guidance for material design. By implementing SHAP (SHapley Additive exPlanations), we successfully decoded the "black box" of machine learning, quantifying exactly how preparation parameters and microstructures dictate electrochemical performance. This transforms empirical "trial-and-error" into interpretable design rules, allowing for the precise tuning of precursors and carbonization temperatures to reach target properties.
-Ultimately, this workflow is not limited to hard carbon; it represents a highly transferable paradigm for the accelerated development and controllable design of various advanced energy materials.
+**Role:** Second author.
+
+**Contribution:** Developed the literature-data collection software and data-processing workflow; performed data cleaning, missing-data imputation, machine-learning modelling, and SHAP-based model interpretation.
+
+This study integrates experimental findings, computational insights, and literature-derived data to investigate relationships among hard-carbon precursors, synthesis conditions, structural characteristics, and sodium-storage performance.

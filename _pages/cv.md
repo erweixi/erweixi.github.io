@@ -11,9 +11,13 @@ redirect_from:
 
 Education
 ======
-* M.S. in Tianjin, China, Tianjin University, 2024
-* B.S. in Tianjin, China, Hebei University of Technology, 2020
 
+* **M.Eng. in Energy and Power Engineering**, Tianjin University, Tianjin, China  
+  Sep 2024 – Jun 2027 (expected)  
+  Research focus: Machine-learning-assisted design of catalysts for lithium–sulfur batteries
+
+* **B.Eng. in Materials Science and Engineering**, Hebei University of Technology, Tianjin, China  
+  Sep 2020 – Jun 2024
   
 Skills
 ======

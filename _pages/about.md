@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Graduate Researcher specializing in Artificial Intelligence for Energy Materials"
+title: "M.S. Researcher in AI-Guided Materials Discovery for Energy Storage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,26 +8,26 @@ redirect_from:
 ---
 
 
-I am a graduate student at Tianjin University, expecting to graduate in Autumn 2027. My research focuses on improving material performance through artificial intelligence. I am currently seeking fully-funded PhD opportunities for Fall 2027.
+I am a master's student at Tianjin University and expect to graduate in June 2027. My research integrates machine learning, large language models, density functional theory, and electrochemical knowledge to accelerate the discovery of catalysts and functional materials,. I am seeking fully funded PhD opportunities starting in August/Fall 2027.
 
-Research Direction
+Research Interests
 ======
-My research focuses on accelerating materials design through **AI-driven methodologies**. I have extensive experience in applying **interpretable machine learning** to battery systems. My previous work includes contributing to the design of hard carbon materials for sodium-ion batteries, which resulted in a second authored publication in *Progress in Materials Science*(IF ~37). Additionally, I authored a comprehensive review on the **integration of AI in rechargeable batteries**, published as the first author in *Advanced Energy Materials*(IF ~27).
+My research focuses on AI- and physics-guided materials discovery for electrochemical energy storage. I develop data-driven workflows that integrate machine learning, large language models, density functional theory, and domain knowledge to identify structure–processing–property relationships and guide materials design. My current primary focus is lithium–sulfur battery catalysts, while my previous work on hard carbon for sodium-ion batteries demonstrates the transferability of these approaches across different battery chemistries.
 
-Currently, I am **leading a research team** focusing on two synergistic frontiers in energy materials: **the Machine Learning Driven Design of Single-Atom Catalysts** and **the High-throughput Screening of catalysts using Large Language Models** for Lithium-Sulfur batteries.
-
-1. ML for SAC Design: I have developed a specialized machine learning process that **establishes the correlation between catalyst electronic structure characteristics and capacity retention rates**. This approach provides a robust design principle for catalysts in conversion-type battery systems.
-
-2. LLM for High-throughput Screening: To accelerate catalyst discovery for Li-S batteries, I proposed a novel **two-step fine-tuning method** for LLMs. This strategy, utilizing a teacher-student architecture, significantly reduces computational overhead and increases screening speed while maintaining high accuracy.
-
-Research Skill
+Current Research
 ======
-1. Research Problem Translation :I possess a strong ability to combine complex physicochemical challenges with AI technology. Instead of blindly applying models, I excel at **Translating Scientific Challenges into Computational Workflows**
-A prime example is my work on **Lithium-Sulfur (Li-S) battery catalyst design**:
-- **Problem Formulation**: Identifying **capacity decay** as the key limiting factor in conversion-type batteries, I initially sought to model the quantitative relationship between material descriptors and decay rates.
-- **Strategic Pivot**: Upon discovering that the high complexity of the data limited the accuracy of standard regression, I **strategically pivoted** the methodology. I redefined the prediction target from a regression of decay rates to a **classification of capacity retention**, significantly enhancing model robustness.
-- **Mechanism Elucidation**: Going beyond simple screening, I utilized **interpretability technologies** to decipher the "black box." I successfully transformed ML-derived correlations into **causal insights**, grounding the computational findings in verifiable **electrochemical mechanisms**.
 
-2. Orchestrating Large-Scale Student Collaboration : I currently serve as **the de facto project lead** for a team of **8 junior researchers** (1 junior master student and 7 undergraduates). I excel at decomposing complex machine learning workflows into executable modules for novices, ensuring high-quality output while fostering a collaborative research environment.
-- **From Novice to Top-Tier Publication**: I successfully guided a junior student with **zero prior research experience** to co-author a high-impact review paper in **Advanced Materials**. I structured the entire writing framework and provided academic coaching, bridging the gap between her initial lack of domain knowledge and the rigorous standards of top journals.
-- **Multi-Stream Team Management**: Managing two parallel projects which are LLM-based screening and ML-driven analysis, I **coordinate the daily workflows of 7 undergraduate students**. I assign different tasks to each person based on their individual circumstances, and regularly check the progress of the project to ensure that it can be completed on time.
+I am currently working on two AI-based directions in materials discovery for electrochemical energy storage:
+
+1. **Physics-informed machine learning for coordination-engineered catalysts:** I am developing interpretable descriptors and robust machine-learning workflows to connect catalyst composition, local coordination environment, electronic structure, and electrochemical performance. My current work focuses on target definition, duplicate-condition handling, physically meaningful descriptor construction, model validation, and DFT-based mechanistic verification, using single-atom catalysts for lithium–sulfur batteries as the primary research system.
+
+2. **LLM-assisted literature-driven catalyst screening:** I developed a two-stage domain-specific fine-tuning framework for evaluating catalysts reported in lithium–sulfur battery literature. The workflow integrates scientific-document processing, paper-aware data extraction, multidimensional catalyst scoring, lightweight model fine-tuning, external consistency validation, and mechanistic analysis. The associated manuscript is currently under revision at *Materials Today Energy*.
+
+Technical Skills
+======
+
+- **Machine learning and data analysis:** Python, pandas, NumPy, scikit-learn, XGBoost, feature engineering, missing-data imputation, cross-validation, hyperparameter optimization, and SHAP-based model interpretation.
+- **Large language models and scientific text processing:** LoRA-based fine-tuning, domain-specific dataset construction, scientific literature processing, prompt and model evaluation, and literature-derived screening workflows.
+- **Computational materials science:** VASP, density functional theory, structural relaxation, adsorption-energy calculations, electronic-structure analysis, and atomistic modelling of catalyst–polysulfide interactions.
+- **Battery materials and electrochemistry:** Lithium–sulfur batteries, sodium-ion hard carbon, single-atom catalysts, coordination-environment analysis, sulfur-redox catalysis, electrochemical-performance data processing, and structure–property interpretation.
+- **Research computing:** Linux, Git, GitHub, scientific-data management, reproducible workflow development, and computational task automation.
