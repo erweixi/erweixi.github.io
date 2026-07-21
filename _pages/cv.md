@@ -19,11 +19,13 @@ Education
 * **B.Eng. in Materials Science and Engineering**, Hebei University of Technology, Tianjin, China  
   Sep 2020 – Jun 2024
   
-Skills
+Technical Skills
 ======
-* Interdisciplinary Research (AI + Materials): I specialize in bridging the gap between advanced AI techniques and energy material challenges. I have successfully applied Machine Learning to solve critical issues in battery catalyst development, focusing on data imputation for incomplete experimental results and using interpretability techniques to uncover underlying physical mechanisms.
-* LLM for Scientific Discovery: Proficient in leveraging Large Language Models to accelerate research. My expertise includes fine-tuning models for domain-specific tasks and developing automated pipelines for scientific data extraction and cleaning from massive literature repositories.
-* Leadership: Have extensive experience in leading research teams. I often served as the project leader, responsible for coordinating the work among different personnel and steering the overall progress of the project.
+- **Machine learning for materials design:** Python, pandas, NumPy, scikit-learn, Random Forest, XGBoost, feature engineering, missing-data imputation, cross-validation, hyperparameter optimization, SHAP-based model interpretation, and candidate ranking. Applied these methods to lithium–sulfur battery catalysts and hard-carbon anodes for sodium-ion batteries.
+- **Scientific data engineering:** Developed literature-data collection software and reproducible data-processing pipelines for heterogeneous materials datasets, including schema design, data cleaning, variable standardization, duplicate-condition handling, target construction, and data-quality control.
+- **Large language models for scientific discovery:** PyTorch, Hugging Face Transformers, LoRA-based fine-tuning, domain-corpus construction, scientific-document processing, automated information extraction, model evaluation, and the development of fully automated, end-to-end literature-driven catalyst-screening workflows.
+- **Computational materials science:** VASP-based density functional theory calculations, structural relaxation, adsorption-energy calculations, density-of-states analysis, and atomistic evaluation of catalyst–polysulfide interactions.
+- **Research leadership and coordination:** Served as a student project lead under faculty supervision; defined research objectives and technical roadmaps, coordinated task allocation and progress review, maintained methodological and data-quality standards, mentored junior researchers, and led manuscript planning and revision.
 
 Researching Projects
 ======
