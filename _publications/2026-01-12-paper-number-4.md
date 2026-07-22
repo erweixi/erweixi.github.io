@@ -1,30 +1,21 @@
 ---
-title: "A Robust ML Framework for Single-Atom Catalyst Discovery: From Noisy Experimental Data to Material Design Rules"
+title: "Data-Driven Discovery of Li–S Catalysts via Two-Stage LLM Fine-Tuning and Mechanistic Validation"
 collection: publications
-category: Current Research
-permalink: /publication/sac-ml-robust-framework
-excerpt: >
-  This work establishes a systematic ML pipeline to extract reliable material design rules from noisy, high-dimensional experimental datasets. 
-  By distilling 376,000+ dynamic cycling records into robust performance metrics and implementing symmetry-aware "Rotation Augmentation," the framework overcomes the limitations of small-sample laboratory data. 
-  The project bridges the gap between raw electrochemical curves and actionable catalyst screening. 
-  Crucially, this data-driven strategy is highly transferable and can be readily applied to any conversion-type battery systems (e.g., Li-S, Li-Se, and Na-S) to accelerate the discovery of high-retention catalysts.
+category: manuscripts_under_revision
+permalink: /publication/2026-llm-catalyst-screening
+excerpt: "A fully automated, literature-driven framework integrating paper-aware information extraction, domain-specific language-model fine-tuning, multidimensional catalyst evaluation, external consistency assessment, and mechanistic validation for lithium–sulfur battery catalyst screening. Its modular architecture is designed to support adaptation to other materials-discovery tasks through domain-specific data, evaluation criteria, and validation modules."
 date: 2026-01-12
-venue: 'Research Project'
+venue: "Manuscript under revision at Materials Today Energy"
 ---
 
-## Research Overview
 
-This project provides a robust solution for handling the "noisy and small-sample" nature of experimental material data in battery research.
+**Status:** Manuscript under revision at *Materials Today Energy*.
 
-### Core Methodology
-1.  **Dynamic Data Distillation**: 
-    Automated extraction of key performance indicators (Peak Capacity, Retention@100, and Maintenance Duration) from hundreds of thousands of raw cycling records, ensuring data consistency despite variations in testing conditions.
-2.  **Symmetry-Aware ML Modeling**: 
-    Implementation of **Rotation Augmentation** to handle the symmetry of coordination environments in Single-Atom Catalysts (SACs), coupled with forward feature selection to identify the most impactful chemical descriptors.
-3.  **Explainable AI (XAI) for Design**: 
-    Utilizing SHAP analysis to decode the complex relationships between catalyst structure and electrochemical stability, enabling both the screening of existing materials and the generation of new candidates.
+**Role:** First author and workflow leader.
+
+**Contribution:** Developed the overall literature-driven screening framework and coordinated scientific-document processing, domain-specific dataset construction, two-stage model fine-tuning, multidimensional scoring, model comparison, external consistency evaluation, mechanistic analysis, manuscript preparation, and revision.
 
 
+This study develops a literature-driven framework for evaluating catalysts reported in lithium–sulfur battery research. The workflow integrates paper-aware scientific information extraction, domain-specific dataset construction, two-stage language-model fine-tuning, multidimensional catalyst scoring, external consistency evaluation, and mechanistic validation.
 
-### Universal Strategy for Conversion-Type Batteries
-While this framework is demonstrated using **Lithium-Sulfur (Li-S)** battery catalysts, its underlying methodology—focusing on robust feature engineering and physics-informed data augmentation—is **domain-agnostic**. The entire pipeline, from curve distillation to SHAP-based rule extraction, serves as a universal template for accelerating catalyst discovery in any **conversion-type battery system**, where handling dynamic degradation and complex coordination chemistry is essential.
+The project investigates whether lightweight domain-adapted language models can support scalable and interpretable catalyst assessment across heterogeneous scientific literature while reducing the computational cost of domain-specific screening.
